@@ -108,10 +108,6 @@ addBtn.addEventListener('click', ()=>{
         text: `${userInput.value}`,
         complete: false,
         priority: 2,
-        
-
-
-
       }
       addItemToToDoList(newTodo)
       printTodo(newTodo)
